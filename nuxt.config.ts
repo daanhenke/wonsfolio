@@ -16,6 +16,5 @@ export default defineNuxtConfig({
   windicss: {
     analyze: true
   },
-  devtools: { enabled: true },
-  ssr: false
+  devtools: { enabled: true }
 })
