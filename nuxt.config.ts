@@ -16,8 +16,5 @@ export default defineNuxtConfig({
   windicss: {
     analyze: true
   },
-  devtools: { enabled: true },
-  app: {
-    baseURL: '/wonsfolio/'
-  }
+  devtools: { enabled: true }
 })
