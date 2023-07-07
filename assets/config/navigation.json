@@ -1,0 +1,11 @@
+{
+  "header": [
+    { "slug": "/", "label": "Home" },
+    { "slug": "/about", "label": "About" },
+    { "slug": "get-in-touch", "label": "Get in touch" }
+  ],
+  "footer": [
+    { "slug": "https://linkedin.com", "label": "LinkedIn", "subtext": "@wonsie" },
+    { "slug": "mailto:admin@wons.ie", "label": "Email", "subtext": "admin@wons.ie" }
+  ]
+}
