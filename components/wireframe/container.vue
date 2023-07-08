@@ -7,14 +7,21 @@
 </template>
 
 <style scoped>
-.wireframe-container { @apply relative border-secondary border-2 w-40 h-16 flex justify-center items-center;
+.wireframe-container { @apply relative border-2 flex justify-center items-center;
   /* animation: wireframe-test 1s linear infinite; */
-  background-size: 20% 50%;
+  border-color: var(--wireframe-color);
+}
+
+.grid {
   background-position: 0 -1px;
   background-image:
     linear-gradient(to right, rgba(0, 255, 0, 0.2) 2px, transparent 1px),
     linear-gradient(to bottom, rgba(0, 255, 0, 0.2) 2px, transparent 1px);
+
 }
+
+.secondary { --wireframe-color: var(--color-secondary); }
+.primary { --wireframe-color: var(--color-primary); }
 
 .corner {
   @apply absolute h-full w-.5;
@@ -28,19 +35,21 @@
   }
 
   &::before {
-    @apply bg-secondary absolute h-2;
+    @apply absolute h-2;
     left: -.25rem;
     right: -.25rem;
     top: -.25rem;
     content: '';
+    background-color: var(--wireframe-color);
   }
 
   &::after {
-    @apply bg-secondary absolute h-2;
+    @apply absolute h-2;
     left: -.25rem;
     right: -.25rem;
     bottom: -.25rem;
     content: '';
+    background-color: var(--wireframe-color);
   }
 }
 </style>

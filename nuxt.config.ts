@@ -16,5 +16,8 @@ export default defineNuxtConfig({
   windicss: {
     analyze: true
   },
+  css: [
+    '~/assets/css/dark.css'
+  ],
   devtools: { enabled: true }
 })
