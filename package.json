@@ -16,6 +16,8 @@
     "nuxt": "^3.6.2",
     "nuxt-svgo": "^3.2.0",
     "nuxt-windicss": "^2.6.1",
-    "windicss": "^3.5.6"
+    "windicss": "^3.5.6",
+    "@nuxt/content": "latest",
+    "@nuxthq/studio": "latest"
   }
 }
