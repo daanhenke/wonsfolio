@@ -2,7 +2,9 @@ export default defineNuxtConfig({
   modules: [
     'nuxt-windicss',
     '@nuxtjs/google-fonts',
-    'nuxt-svgo'
+    'nuxt-svgo',
+    '@nuxt/content',
+    '@nuxthq/studio'
   ],
   svgo: {
     autoImportPath: './assets/svg/'
