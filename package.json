@@ -13,7 +13,7 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/google-fonts": "^3.0.1",
     "@types/node": "^18",
-    "nuxt": "^3.6.2",
+    "nuxt": "^3.8.1",
     "nuxt-svgo": "^3.2.0",
     "nuxt-windicss": "^2.6.1",
     "windicss": "^3.5.6",
